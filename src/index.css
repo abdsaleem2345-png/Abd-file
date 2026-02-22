@@ -1,0 +1,56 @@
+/* Import fonts from Google Fonts via CSS (backup to HTML link) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0f0c29; /* Deep Cosmic Background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overscroll-behavior-y: none; /* Prevent pull-to-refresh on mobile */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  isolation: isolate;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0c29; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4c1d95; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9; 
+}
+
+/* Tap Highlight Removal for Mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
