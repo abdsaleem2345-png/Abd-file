@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /private/
+
+# Host: https://your-app-url.com
+# Sitemap: https://your-app-url.com/sitemap.xml
