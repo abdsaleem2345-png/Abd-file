@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark Background -->
+  <circle cx="256" cy="256" r="256" fill="#0f0c29"/>
+  
+  <!-- Cosmic Glow -->
+  <circle cx="256" cy="256" r="200" fill="url(#grad1)" opacity="0.3"/>
+  
+  <!-- Hand Outline -->
+  <path d="M256 100c-15 0-28 12-28 28v100h-4c-15 0-28 12-28 28v60c0 40 30 70 70 70s70-30 70-70v-160c0-16-13-28-28-28s-28 12-28 28v80h-4v-80c0-16-13-28-28-28z" fill="#a78bfa"/>
+  
+  <!-- Palm Lines -->
+  <path d="M240 280q20 20 40 0" stroke="#00f3ff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M230 320q30 10 60 -10" stroke="#00f3ff" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Star accents -->
+  <path d="M150 150l10 10-10 10-10-10z" fill="#00f3ff"/>
+  <path d="M360 120l8 8-8 8-8-8z" fill="#d8b4fe"/>
+  
+  <defs>
+    <radialGradient id="grad1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#0f0c29" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
